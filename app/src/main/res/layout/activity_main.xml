@@ -19,6 +19,16 @@
             android:layout_height="wrap_content"
 
     />
+
+
+    <SeekBar
+            android:id="@+id/parameter2Seek"
+            android:layout_below="@id/parameterSeek"
+            android:max="1000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+    />
     <Button
             android:id="@+id/startButton"
             android:text="Fire!"
