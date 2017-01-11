@@ -14,6 +14,7 @@
 
     <SeekBar
             android:id="@+id/parameterSeek"
+            android:max="1000"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
 
