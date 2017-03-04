@@ -28,16 +28,11 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile 'com.android.support:appcompat-v7:25.1.0'
+    compile 'com.android.support:appcompat-v7:25.2.0'
     testCompile 'junit:junit:4.12'
 
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 
-    compile 'com.github.ligi:KAXT:0.13'
+    compile 'com.github.ligi:KAXT:0.15'
     compile 'com.github.ligi:jsyn:dc286d26779068edcbb120b806a552d3fecdd692'
-}
-
-repositories {
-    mavenCentral()
-    maven { url 'https://jitpack.io' }
 }
