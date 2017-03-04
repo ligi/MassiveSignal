@@ -12,27 +12,18 @@
         tools:context="massivesignal.org.ligi.massivesignal.MainActivity">
 
 
-    <SeekBar
-            android:id="@+id/parameterSeek"
-            android:max="1000"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-
-    />
-
-
-    <SeekBar
-            android:id="@+id/parameter2Seek"
-            android:layout_below="@id/parameterSeek"
-            android:max="1000"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-
-    />
     <Button
             android:id="@+id/startButton"
             android:text="Fire!"
             android:layout_alignParentBottom="true"
             android:layout_width="match_parent"
             android:layout_height="64dp"/>
+
+    <LinearLayout
+            android:id="@+id/controlContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    </LinearLayout>
 </RelativeLayout>
